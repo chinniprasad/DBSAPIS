@@ -1,0 +1,33 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha Test/testcases.js --timeout 100000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinniprasad/DBSAPIS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinniprasad/DBSAPIS/issues"
+  },
+  "homepage": "https://github.com/chinniprasad/DBSAPIS#readme",
+  "dependencies": {
+    "chai-sorted": "^0.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-oas-generator": "^1.0.24",
+    "mariadb": "^2.4.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.0.1"
+  }
+}
