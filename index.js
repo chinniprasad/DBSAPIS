@@ -14,7 +14,6 @@ app.use(express.urlencoded({ extended: true }))
 app.use("/v1", routes);
 
 app.listen(port, () => {
-  console.log(`database connected successfully`);
   console.log(`🌏 Server is running at http://localhost:${port}`)
 })
 
